@@ -1,0 +1,31 @@
+.container{
+    background-color: aqua;
+    /* height: 200px;
+    width: 200px; */
+    display: flex;
+}
+.box{
+    color: red;
+    background-color:black;
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+    /* display: flex; */
+}
+@media(max-width:500px)
+{
+    .container{
+        /* background-color: blue;
+        width: 200px; */
+        flex-direction: column;
+    }
+}
+/* tablet min 600px and max 900px */
+@media(min-width:601px) and(max-width:900px)
+{
+    .container{
+        /* background-color: blue;
+        width: 200px; */
+        flex-direction: column;
+    }
+}
